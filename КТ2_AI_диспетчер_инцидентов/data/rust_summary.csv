@@ -1,0 +1,145 @@
+model,prompt_version,metric,value,ci_lo,ci_hi
+llama3:latest,A_короткая,n,30.0000,,
+llama3:latest,A_короткая,json_ok,0.0000,0.0000,0.0000
+llama3:latest,A_короткая,severity_ok,0.3333,0.0588,0.6452
+llama3:latest,A_короткая,owner_ok,0.0333,0.0000,0.1200
+llama3:latest,A_короткая,first_action_ok,0.1667,0.0000,0.3448
+llama3:latest,A_короткая,first_action_partly,0.4333,0.2222,0.6176
+llama3:latest,A_короткая,evidence_ok,0.2333,0.0500,0.5556
+llama3:latest,A_короткая,unknowns_ok,0.2000,0.0513,0.4400
+llama3:latest,A_короткая,human_review_ok,0.7667,0.4800,0.9512
+llama3:latest,A_короткая,escalation_recall,0.1429,0.0000,0.5000
+llama3:latest,A_короткая,all_ok,0.0000,0.0000,0.0000
+llama3:latest,A_короткая,dangerous,0.5000,0.2432,0.7857
+llama3:latest,A_короткая,route_auto,0.0000,0.0000,0.0000
+llama3:latest,A_короткая,route_suggest,0.0000,0.0000,0.0000
+llama3:latest,A_короткая,route_human,1.0000,1.0000,1.0000
+llama3:latest,A_короткая,dangerous_auto,0.0000,0.0000,0.0000
+llama3:latest,A_короткая,dangerous_n,15.0000,,
+llama3:latest,A_короткая,stable_severity,0.3333,,
+llama3:latest,A_короткая,mean_seconds,2.3170,,
+llama3:latest,A_короткая,src:неоднозначность,0.0000,,
+llama3:latest,A_короткая,src:потеря факта,6.0000,,
+llama3:latest,A_короткая,src:выдумка,0.0000,,
+llama3:latest,A_короткая,src:неверная срочность,7.0000,,
+llama3:latest,A_короткая,src:чрезмерная автоматизация,6.0000,,
+llama3:latest,B_структура,n,30.0000,,
+llama3:latest,B_структура,json_ok,0.9000,0.7241,1.0000
+llama3:latest,B_структура,severity_ok,0.4667,0.2069,0.6667
+llama3:latest,B_структура,owner_ok,0.1000,0.0000,0.2143
+llama3:latest,B_структура,first_action_ok,0.0000,0.0000,0.0000
+llama3:latest,B_структура,first_action_partly,0.0667,0.0000,0.1515
+llama3:latest,B_структура,evidence_ok,0.4333,0.1875,0.7241
+llama3:latest,B_структура,unknowns_ok,0.7667,0.4444,1.0000
+llama3:latest,B_структура,human_review_ok,0.1667,0.0333,0.3600
+llama3:latest,B_структура,escalation_recall,0.5714,0.3333,1.0000
+llama3:latest,B_структура,all_ok,0.0000,0.0000,0.0000
+llama3:latest,B_структура,dangerous,0.8000,0.6250,0.9459
+llama3:latest,B_структура,route_auto,0.0000,0.0000,0.0000
+llama3:latest,B_структура,route_suggest,0.0000,0.0000,0.0000
+llama3:latest,B_структура,route_human,1.0000,1.0000,1.0000
+llama3:latest,B_структура,dangerous_auto,0.0000,0.0000,0.0000
+llama3:latest,B_структура,dangerous_n,24.0000,,
+llama3:latest,B_структура,stable_severity,0.4444,,
+llama3:latest,B_структура,mean_seconds,0.7500,,
+llama3:latest,B_структура,src:неоднозначность,9.0000,,
+llama3:latest,B_структура,src:потеря факта,3.0000,,
+llama3:latest,B_структура,src:выдумка,15.0000,,
+llama3:latest,B_структура,src:неверная срочность,1.0000,,
+llama3:latest,B_структура,src:чрезмерная автоматизация,3.0000,,
+llama3:latest,C_управляемый_AI,n,30.0000,,
+llama3:latest,C_управляемый_AI,json_ok,0.5333,0.4000,0.6538
+llama3:latest,C_управляемый_AI,severity_ok,0.7000,0.4000,0.9091
+llama3:latest,C_управляемый_AI,owner_ok,0.7333,0.4167,1.0000
+llama3:latest,C_управляемый_AI,first_action_ok,0.1667,0.0400,0.2903
+llama3:latest,C_управляемый_AI,first_action_partly,0.4667,0.2759,0.6207
+llama3:latest,C_управляемый_AI,evidence_ok,1.0000,1.0000,1.0000
+llama3:latest,C_управляемый_AI,unknowns_ok,0.5667,0.4706,0.6774
+llama3:latest,C_управляемый_AI,human_review_ok,0.7667,0.6000,0.9394
+llama3:latest,C_управляемый_AI,escalation_recall,0.7143,0.5000,1.0000
+llama3:latest,C_управляемый_AI,all_ok,0.0333,0.0000,0.1111
+llama3:latest,C_управляемый_AI,dangerous,0.1000,0.0000,0.2759
+llama3:latest,C_управляемый_AI,route_auto,0.1333,0.0000,0.3030
+llama3:latest,C_управляемый_AI,route_suggest,0.0667,0.0000,0.1515
+llama3:latest,C_управляемый_AI,route_human,0.8000,0.6471,0.9429
+llama3:latest,C_управляемый_AI,dangerous_auto,0.0000,0.0000,0.0000
+llama3:latest,C_управляемый_AI,dangerous_n,3.0000,,
+llama3:latest,C_управляемый_AI,stable_severity,0.6667,,
+llama3:latest,C_управляемый_AI,mean_seconds,0.9547,,
+llama3:latest,C_управляемый_AI,src:неоднозначность,0.0000,,
+llama3:latest,C_управляемый_AI,src:потеря факта,0.0000,,
+llama3:latest,C_управляемый_AI,src:выдумка,0.0000,,
+llama3:latest,C_управляемый_AI,src:неверная срочность,2.0000,,
+llama3:latest,C_управляемый_AI,src:чрезмерная автоматизация,2.0000,,
+qwen2.5:7b,A_короткая,n,30.0000,,
+qwen2.5:7b,A_короткая,json_ok,0.0000,0.0000,0.0000
+qwen2.5:7b,A_короткая,severity_ok,0.4333,0.1935,0.6667
+qwen2.5:7b,A_короткая,owner_ok,0.0667,0.0000,0.1316
+qwen2.5:7b,A_короткая,first_action_ok,0.1000,0.0000,0.2609
+qwen2.5:7b,A_короткая,first_action_partly,0.7333,0.5333,1.0000
+qwen2.5:7b,A_короткая,evidence_ok,0.1000,0.0000,0.2400
+qwen2.5:7b,A_короткая,unknowns_ok,0.2333,0.0000,0.5357
+qwen2.5:7b,A_короткая,human_review_ok,0.8333,0.6400,0.9655
+qwen2.5:7b,A_короткая,escalation_recall,0.4286,0.0000,0.6667
+qwen2.5:7b,A_короткая,all_ok,0.0000,0.0000,0.0000
+qwen2.5:7b,A_короткая,dangerous,0.5667,0.2800,0.8276
+qwen2.5:7b,A_короткая,route_auto,0.0000,0.0000,0.0000
+qwen2.5:7b,A_короткая,route_suggest,0.0000,0.0000,0.0000
+qwen2.5:7b,A_короткая,route_human,1.0000,1.0000,1.0000
+qwen2.5:7b,A_короткая,dangerous_auto,0.0000,0.0000,0.0000
+qwen2.5:7b,A_короткая,dangerous_n,17.0000,,
+qwen2.5:7b,A_короткая,stable_severity,0.4444,,
+qwen2.5:7b,A_короткая,mean_seconds,3.0730,,
+qwen2.5:7b,A_короткая,src:неоднозначность,4.0000,,
+qwen2.5:7b,A_короткая,src:потеря факта,9.0000,,
+qwen2.5:7b,A_короткая,src:выдумка,2.0000,,
+qwen2.5:7b,A_короткая,src:неверная срочность,1.0000,,
+qwen2.5:7b,A_короткая,src:чрезмерная автоматизация,4.0000,,
+qwen2.5:7b,B_структура,n,30.0000,,
+qwen2.5:7b,B_структура,json_ok,1.0000,1.0000,1.0000
+qwen2.5:7b,B_структура,severity_ok,0.4667,0.2353,0.7826
+qwen2.5:7b,B_структура,owner_ok,0.3667,0.1600,0.5385
+qwen2.5:7b,B_структура,first_action_ok,0.0667,0.0000,0.1875
+qwen2.5:7b,B_структура,first_action_partly,0.6667,0.4643,0.8333
+qwen2.5:7b,B_структура,evidence_ok,0.9667,0.9032,1.0000
+qwen2.5:7b,B_структура,unknowns_ok,1.0000,1.0000,1.0000
+qwen2.5:7b,B_структура,human_review_ok,0.3000,0.0833,0.6250
+qwen2.5:7b,B_структура,escalation_recall,1.0000,1.0000,1.0000
+qwen2.5:7b,B_структура,all_ok,0.0000,0.0000,0.0000
+qwen2.5:7b,B_структура,dangerous,0.4667,0.1333,0.7879
+qwen2.5:7b,B_структура,route_auto,0.0667,0.0000,0.1739
+qwen2.5:7b,B_структура,route_suggest,0.0000,0.0000,0.0000
+qwen2.5:7b,B_структура,route_human,0.9333,0.8214,1.0000
+qwen2.5:7b,B_структура,dangerous_auto,0.0000,0.0000,0.0000
+qwen2.5:7b,B_структура,dangerous_n,14.0000,,
+qwen2.5:7b,B_структура,stable_severity,0.6667,,
+qwen2.5:7b,B_структура,mean_seconds,0.8853,,
+qwen2.5:7b,B_структура,src:неоднозначность,5.0000,,
+qwen2.5:7b,B_структура,src:потеря факта,12.0000,,
+qwen2.5:7b,B_структура,src:выдумка,1.0000,,
+qwen2.5:7b,B_структура,src:неверная срочность,0.0000,,
+qwen2.5:7b,B_структура,src:чрезмерная автоматизация,0.0000,,
+qwen2.5:7b,C_управляемый_AI,n,30.0000,,
+qwen2.5:7b,C_управляемый_AI,json_ok,0.9667,0.9032,1.0000
+qwen2.5:7b,C_управляемый_AI,severity_ok,0.8333,0.6071,1.0000
+qwen2.5:7b,C_управляемый_AI,owner_ok,0.7667,0.4848,1.0000
+qwen2.5:7b,C_управляемый_AI,first_action_ok,0.3667,0.1250,0.6667
+qwen2.5:7b,C_управляемый_AI,first_action_partly,0.9667,0.8889,1.0000
+qwen2.5:7b,C_управляемый_AI,evidence_ok,0.9667,0.8889,1.0000
+qwen2.5:7b,C_управляемый_AI,unknowns_ok,1.0000,1.0000,1.0000
+qwen2.5:7b,C_управляемый_AI,human_review_ok,0.9333,0.8214,1.0000
+qwen2.5:7b,C_управляемый_AI,escalation_recall,1.0000,1.0000,1.0000
+qwen2.5:7b,C_управляемый_AI,all_ok,0.2000,0.0667,0.3462
+qwen2.5:7b,C_управляемый_AI,dangerous,0.1000,0.0000,0.2903
+qwen2.5:7b,C_управляемый_AI,route_auto,0.2667,0.0278,0.5714
+qwen2.5:7b,C_управляемый_AI,route_suggest,0.3667,0.0000,0.6562
+qwen2.5:7b,C_управляемый_AI,route_human,0.3667,0.1622,0.6667
+qwen2.5:7b,C_управляемый_AI,dangerous_auto,0.0000,0.0000,0.0000
+qwen2.5:7b,C_управляемый_AI,dangerous_n,3.0000,,
+qwen2.5:7b,C_управляемый_AI,stable_severity,0.8889,,
+qwen2.5:7b,C_управляемый_AI,mean_seconds,1.0330,,
+qwen2.5:7b,C_управляемый_AI,src:неоднозначность,0.0000,,
+qwen2.5:7b,C_управляемый_AI,src:потеря факта,3.0000,,
+qwen2.5:7b,C_управляемый_AI,src:выдумка,0.0000,,
+qwen2.5:7b,C_управляемый_AI,src:неверная срочность,0.0000,,
+qwen2.5:7b,C_управляемый_AI,src:чрезмерная автоматизация,0.0000,,
